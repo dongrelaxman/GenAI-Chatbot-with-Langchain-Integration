@@ -41,3 +41,5 @@ def handle_input():
 
 # Input field for new queries at the bottom, with on_change callback to handle input
 st.text_input("Search the topic you want", key="input", on_change=handle_input)
+
+# print("Chatbot completed.")
