@@ -25,7 +25,7 @@ output_parser = StrOutputParser()
 chain = prompt | llm | output_parser
 
 # Streamlit framework
-st.title("LangChain Demo with OpenAI API")
+st.title("Generative AI Chatbot using LangChain")
 
 # Initialize conversation history in Streamlit session state
 if "history" not in st.session_state:
