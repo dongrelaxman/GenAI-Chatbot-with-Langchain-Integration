@@ -1,4 +1,5 @@
 # GenAI-Chatbot-with-Langchain-Integration
+![Alt text]("C:\Users\laxman\Pictures\Screenshots\Screenshot 2024-10-05 095632.png")
 ## Overview
 This project is a Generative AI Chatbot built using LangChain and Streamlit. The chatbot leverages OpenAI’s gpt-3.5-turbo model to provide real-time responses to user queries. It integrates LangChain's powerful prompt templates and OpenAI's LLM to create a seamless conversation experience.
 
