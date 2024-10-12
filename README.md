@@ -22,10 +22,16 @@ Real-time Responses: Uses OpenAI's API to generate responses on the fly.
 
 # Setup Instructions
 ## Clone the repository:
-`git clone https://github.com/your-repository/chatbot-app.git`
-`cd chatbot-app`
+```bash
+git clone https://github.com/your-repository/chatbot-app.git
+```
+```bash
+cd chatbot-app
+```
 **Install the required Python libraries:**
-`pip install `requirements.txt`
+```bash
+pip install requirements.txt
+```
 
 Create a `.env` file in the root directory and add your 
 
@@ -34,7 +40,9 @@ OPENAI_API_KEY=your-openai-api-key
 LANGCHAIN_API_KEY=your-langchain-api-key
 
 **Run the Streamlit app:**
-`streamlit run app.py`
+```bash
+streamlit run app.py
+```
 # How It Works
 
 ## Backend Overview
