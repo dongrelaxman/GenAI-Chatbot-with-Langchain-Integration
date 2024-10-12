@@ -37,6 +37,21 @@ Run the Streamlit app:
 **bash**
 
 `streamlit run app.py`
+# How It Works
+
+## Backend Overview
+**LangChain Integration:**
+
+The code uses LangChain’s `ChatPromptTemplate` to define a system prompt that provides context to the language model.
+It initializes a pipeline (chain) of prompt templates, OpenAI model (`gpt-3.5-turbo`), and an output parser to generate responses.
+
+**OpenAI GPT-3.5 Turbo:**
+
+The chatbot is powered by GPT-3.5, offering high-quality and human-like responses to the user's input.
+
+**Environment Configuration:**
+
+The project uses `dotenv` to manage sensitive API keys securely. These keys are automatically loaded from the `.env` file.
 
 # Frontend Overview
 **Streamlit Interface**
