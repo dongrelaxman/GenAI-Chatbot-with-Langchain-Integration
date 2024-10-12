@@ -10,33 +10,28 @@ User-friendly Interface: Built using Streamlit for a clean and simple user inter
 Real-time Responses: Uses OpenAI's API to generate responses on the fly.
 
 ## Requirements
-Python 3.7+
-Streamlit: For building the web application.
-LangChain: For managing prompts and models.
-OpenAI API: To access OpenAI’s language models. If you dont have acces use opensource models like Ollama
+1.Python 3.7+
+
+2.streamlit: For building the web application.
+
+3.LangChain: For managing prompts and models.
+
+4.OpenAI API: To access OpenAI’s language models. If you dont have acces use opensource models like Ollama
 
 # Setup Instructions
 ## Clone the repository:
-
-**bash**
-
 `git clone https://github.com/your-repository/chatbot-app.git`
 `cd chatbot-app`
-Install the required Python libraries:
+**Install the required Python libraries:**
+`pip install `requirements.txt`
 
-**bash**
+Create a `.env` file in the root directory and add your 
 
-`pip install streamlit langchain_openai langchain_core python-dotenv`
-Create a .env file in the root directory and add your OpenAI and LangChain API keys:
-
-**bash**
-
+**OpenAI and LangChain API keys:**
 OPENAI_API_KEY=your-openai-api-key
 LANGCHAIN_API_KEY=your-langchain-api-key
-Run the Streamlit app:
 
-**bash**
-
+**Run the Streamlit app:**
 `streamlit run app.py`
 # How It Works
 
@@ -78,6 +73,7 @@ Future Enhancements
 Multi-turn Dialog: Expand the chatbot to handle more complex, multi-turn conversations.
 User Authentication: Add user login to preserve conversation history across sessions.
 Model Customization: Allow users to select different models (like GPT-4) for varied performance.
+
 License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
